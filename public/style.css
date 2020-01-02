@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Neucha', cursive;
+}
+
+body {
+	background-color: 07889B;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;	
+}
+
+input {
+	font-size: 2em;
+	text-align: center;
+}
+
+button {
+	font-size: 1.5em;
+	border-radius: 10px;
+	width: 150px;
+}
+
+hr {
+	margin: 1em;
+	width: 40vw;
+}
+
+/* PARTIALS */
+
+header, footer {
+	height: 10vh;
+	width: 100vw;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/* SCREENS */
+
+.screen {
+	height: 80vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
